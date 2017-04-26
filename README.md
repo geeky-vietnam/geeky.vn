@@ -16,9 +16,8 @@ TBU
 * Elixir Vietnam
 * [Golang Vietnam](https://golang.org.vn/)
 * Android Saigon
-* ?
+* [Grokking Vietnam](https://www.grokking.org/)
 
 ## Activity
 
 * Geeky Weekend
-
