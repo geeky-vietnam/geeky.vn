@@ -46,7 +46,7 @@ let pages = [
 
 To edit pages content, please `fork` this repo and make changes in the markdown files.
 
-Don't forget to generate the HTML pages before creating a pull request:
+Finally, generate the HTML pages for publishing:
 
 ```
 $ make
