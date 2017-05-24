@@ -1,0 +1,13 @@
+# How to use
+
+This is the static page for geeky.vn
+
+All of the pages source code are stored in markdown format within `src` folder.
+
+To manage which page to be shown on the main menu. Edit the `pages` array in `generator.js`.
+
+After you finished editting. Generate the HTML pages from markdown source with:
+
+  $ make
+
+
