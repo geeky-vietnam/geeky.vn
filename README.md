@@ -1,23 +1,55 @@
-# Geeky Alliance
+# Geeky.vn
 
-## Who are we?
+## System requirement
 
-TBU
+- Node.js
+- Make
+- A text editor that supports Markdown
 
-## Mission Statement
+## Project Structure
 
-TBU
+```
+├── css
+│   └── theme.css
+├── generator.js
+├── img
+├── js
+├── Makefile
+├── README.md
+├── src
+│   ├── get-involved.md
+│   ├── how-we-do.md
+│   ├── index.md
+│   ├── legacy.md
+│   └── what-we-do.md
+└── template.html
+```
 
-## Participating Members
+All of the pages source code are stored in markdown format within `src` folder.
 
-* [Ruby Vietnam](http://ruby.org.vn)
-* Rust Vietnam
-* JavaScript Vietnam
-* Elixir Vietnam
-* [Golang Vietnam](https://golang.org.vn/)
-* Android Saigon
-* [Grokking Vietnam](https://www.grokking.org/)
+## Manage Pages
 
-## Activity
+To manage which page to be shown on the main menu. Edit the `pages` array in `generator.js`.
 
-* Geeky Weekend
+```
+let pages = [
+  { name: 'About Us', slug: 'index'},
+  { name: 'What we do?', slug: 'what-we-do'},
+  { name: 'How we do it?', slug: 'how-we-do'},
+  { name: 'Get involved', slug: 'get-involved'},
+  { name: 'Wanna hack?', slug: 'legacy'}
+];
+
+```
+
+## How to edit
+
+To edit pages content, please `fork` this repo and make changes in the markdown files.
+
+Don't forget to generate the HTML pages before creating a pull request:
+
+```
+$ make
+```
+
+
