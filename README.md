@@ -51,5 +51,8 @@ Finally, generate the HTML pages for publishing:
 ```
 $ make
 ```
-
+or
+```
+$ node generator.js
+```
 
